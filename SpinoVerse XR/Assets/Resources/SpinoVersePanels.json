@@ -1,0 +1,16 @@
+{
+  "panels": [
+    {
+      "id": 0,
+      "title": "Welcome to SpinoVerse XR project.",
+      "description": "In this module, you’re going to experience Spine Core and its functions in Mixed Reality.\n\nSelect Start to enter the experiment.",
+      "buttonText": "Start"
+    },
+    {
+      "id": 1,
+      "title": "Introduction",
+      "description": "The Spinal core is one of the most important parts, providing the main support, allowing you to stand upright, bend and twist.\n\nClick Next to Continue.",
+      "buttonText": "Next"
+    }
+  ]
+}
