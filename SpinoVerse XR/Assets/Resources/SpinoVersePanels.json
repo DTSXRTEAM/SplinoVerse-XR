@@ -4,13 +4,37 @@
       "id": 0,
       "title": "Welcome to SpinoVerse XR project.",
       "description": "In this module, you’re going to experience Spine Core and its functions in Mixed Reality.\n\nSelect Start to enter the experiment.",
-      "buttonText": "Start"
+      "buttonType": "Start"
     },
     {
       "id": 1,
       "title": "Introduction",
       "description": "The Spinal core is one of the most important parts, providing the main support, allowing you to stand upright, bend and twist.\n\nClick Next to Continue.",
-      "buttonText": "Next"
+      "buttonType": "Next_Default"
+    },
+    {
+      "id": 2,
+      "title": "Spine Parts",
+      "description": "There are a total of 31 pairs of nerves connected to your body.\n\n1. 8 cervical nerves (C1–C8)\n2. 12 thoracic nerves (T1–T12)\n3. 5 lumbar nerves (L1–L5)\n4. 5 sacral nerves (S1–S5)\n5. 1 coccygeal nerve (Co1)\n\nSelect Next to Continue.",
+      "buttonType": "Next_Default_1"
+    },
+    {
+      "id": 3,
+      "title": "Cervical Spine",
+      "description": "The Cervical spine, or neck region, consists of seven stacked vertebrae (C1-C7) connecting the skull to the thoracic spine, designed for flexibility, supporting the head, and protecting the upper spinal cord.\n\nSelect Next to Continue.",
+      "buttonType": "Next_Cervical"
+    },
+    {
+      "id": 4,
+      "title": "Thoracic Spine",
+      "description": "The Thoracic spine (mid-back) is the longest, most rigid section of the vertebral column, consisting of 12 vertebrae (T1–T12) located between the cervical and lumbar spine.\n\nClick Next to Continue.",
+      "buttonType": "Next_Thoracic"
+    },
+    {
+      "id": 5,
+      "title": "Lumbar Spine",
+      "description": "The Lumbar spine, or lower back, consists of five durable vertebrae (L1–L5) located between the thoracic spine and the sacrum, designed to support upper body weight, absorb shock, and facilitate movement.\n\nClick Next to Continue.",
+      "buttonType": "Next_Lumbar"
     }
   ]
 }

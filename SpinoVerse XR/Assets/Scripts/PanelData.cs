@@ -1,15 +1,15 @@
 using System;
 
-[Serializable]
+[System.Serializable]
 public class PanelData
 {
     public int id;
     public string title;
     public string description;
-    public string buttonText;
+    public string buttonType;
 }
 
-[Serializable]
+[System.Serializable]
 public class PanelDataList
 {
     public PanelData[] panels;
