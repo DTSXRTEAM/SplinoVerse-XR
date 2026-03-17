@@ -15,6 +15,8 @@ public class SpinoVerseUIPanel : MonoBehaviour
     public GameObject nextCervicalPrefab;
     public GameObject nextThoracicPrefab;
     public GameObject nextLumbarPrefab;
+    public GameObject nextSacrumPrefab;
+    public GameObject nextCoccyxPrefab;
 
     private PanelDataList panelList;
     private int currentIndex = 0;
@@ -77,6 +79,14 @@ public class SpinoVerseUIPanel : MonoBehaviour
         case "Next_Lumbar":
             currentButton = Instantiate(nextLumbarPrefab, buttonParent);
             break;
+        
+        case "Next_Sacrum":
+        currentButton = Instantiate(nextSacrumPrefab, buttonParent);
+        break;
+
+        case "Next_Coccyx":
+        currentButton = Instantiate(nextCoccyxPrefab, buttonParent);
+        break;
     }
 }
 }

@@ -12,12 +12,14 @@ public class BoneHighlighterManager : MonoBehaviour
     public Material thoracicHighlight;
     public Material lumbarHighlight;
     public Material sacrumHighlight;
+    public Material coccyxHighlight;
 
     [Header("Spine Regions")]
     public List<MeshRenderer> cervicalBones = new List<MeshRenderer>();
     public List<MeshRenderer> thoracicBones = new List<MeshRenderer>();
     public List<MeshRenderer> lumbarBones = new List<MeshRenderer>();
     public List<MeshRenderer> sacrumBones = new List<MeshRenderer>();
+    public List<MeshRenderer> coccyxBones = new List<MeshRenderer>();
 
     private List<MeshRenderer> allBones = new List<MeshRenderer>();
 
@@ -28,6 +30,7 @@ public class BoneHighlighterManager : MonoBehaviour
         allBones.AddRange(thoracicBones);
         allBones.AddRange(lumbarBones);
         allBones.AddRange(sacrumBones);
+        allBones.AddRange(coccyxBones);
     }
 
     public void HighlightRegion(SpineRegion region)
@@ -68,6 +71,7 @@ public class BoneHighlighterManager : MonoBehaviour
             case SpineRegion.Thoracic: return thoracicBones;
             case SpineRegion.Lumbar: return lumbarBones;
             case SpineRegion.Sacrum: return sacrumBones;
+            case SpineRegion.Coccyx: return coccyxBones;
             default: return cervicalBones;
         }
     }
@@ -80,6 +84,7 @@ public class BoneHighlighterManager : MonoBehaviour
             case SpineRegion.Thoracic: return thoracicHighlight;
             case SpineRegion.Lumbar: return lumbarHighlight;
             case SpineRegion.Sacrum: return sacrumHighlight;
+            case SpineRegion.Coccyx: return coccyxHighlight;
             default: return cervicalHighlight;
         }
     }

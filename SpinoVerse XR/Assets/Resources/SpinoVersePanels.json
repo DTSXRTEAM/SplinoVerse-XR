@@ -35,6 +35,18 @@
       "title": "Lumbar Spine",
       "description": "The Lumbar spine, or lower back, consists of five durable vertebrae (L1–L5) located between the thoracic spine and the sacrum, designed to support upper body weight, absorb shock, and facilitate movement.\n\nClick Next to Continue.",
       "buttonType": "Next_Lumbar"
+    },
+    {
+      "id": 6,
+      "title": "Sacrum Spine",
+      "description": "Composed of five fused vertebrae (S1–S5). It connects the lumbar spine to the tailbone (coccyx) and forms the back wall of the pelvis.\n\nSelect Next to Continue.",
+      "buttonType": "Next_Sacrum"
+    },
+    {
+      "id": 7,
+      "title": "Coccyx Spine",
+      "description": "The coccyx, commonly known as the tailbone, is the final segment of the vertebral column located below the sacrum. It is formed by three to five fused vertebrae and provides attachment for ligaments and muscles of the pelvic floor.\n\nSelect Next to Continue.",
+      "buttonType": "Next_Coccyx"
     }
   ]
 }

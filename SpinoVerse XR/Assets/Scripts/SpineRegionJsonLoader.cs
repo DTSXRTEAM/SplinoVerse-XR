@@ -53,23 +53,26 @@ public class SpineRegionJsonLoader : MonoBehaviour
     }
 
     int GetPanelId(SpineRegion region)
+{
+    switch (region)
     {
-        switch (region)
-        {
-            case SpineRegion.Cervical:
-                return 3;
+        case SpineRegion.Cervical:
+            return 3;
 
-            case SpineRegion.Thoracic:
-                return 4;
+        case SpineRegion.Thoracic:
+            return 4;
 
-            case SpineRegion.Lumbar:
-                return 5;
+        case SpineRegion.Lumbar:
+            return 5;
 
-            case SpineRegion.Sacrum:
-                return 2; // change if needed
+        case SpineRegion.Sacrum:
+            return 6;
 
-            default:
-                return 1;
-        }
+        case SpineRegion.Coccyx:
+            return 7;
+
+        default:
+            return -1;
     }
+}
 }
